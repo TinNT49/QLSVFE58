@@ -55,4 +55,8 @@ var Validation = function () {
         document.querySelector(error_selector).innerHTML = '';
         return true;
     }
+
+    this.kiemtraQRCode = function () {
+        console.log('check QR code');
+    }
 }
